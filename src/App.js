@@ -1,11 +1,31 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import PageNav from "./components/PageNavigation";
+
 
 function App() {
   return (
-    <div>
-      <h1>Hello There</h1>
-    </div>
+  
+   
+      <Router> 
+      <Switch>
+        
+        <Route exact path="/" component={PageNav.home} />
+       
+
+        <Route exact path="/home" component={PageNav.home} />
+         
+
+        <Route exact path="/about" component={PageNav.about} />
+          
+
+        <Route exact path="/blog" component={PageNav.blog} />
+          
+        
+      </Switch>
+
+    </Router>
+
   );
 }
 
