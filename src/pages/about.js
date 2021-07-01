@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import NavBar from "../components/NavItems"
 
 function About(){
 
@@ -7,6 +8,8 @@ function About(){
     return(
         <>
             <h1>About Page</h1>
+
+            <NavBar index={2} />
         </>
     )
 }

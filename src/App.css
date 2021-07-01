@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+.customJumbotron {
+  background: #a0f0e2;
+  background: linear-gradient(90deg, #a0f0e2 0, #9bee9b 58%);
+  margin: 0;
+  padding: 4.5rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  font-family: "Nothing you could do", cursive;
+}
+
+.glassEffect {
+  background: rgba(255, 255, 255, 0.25);
+  background-size: initial;
+  box-shadow: 0 10px 30px rgba(60, 60, 60, 0.4);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-block;
+}
+
+.nav-pills .nav-link.active {
+  background: #a0f0e2;
+  background: linear-gradient(90deg, #a0f0e2 0, #9bee9b 58%);
+  color: white !important;
+}

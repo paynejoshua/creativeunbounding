@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/creativeunbounding/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/creativeunbounding/static/js/main.2b722ee9.chunk.js",
-    "main.js.map": "/creativeunbounding/static/js/main.2b722ee9.chunk.js.map",
+    "main.js": "/creativeunbounding/static/js/main.65fbfbd5.chunk.js",
+    "main.js.map": "/creativeunbounding/static/js/main.65fbfbd5.chunk.js.map",
     "runtime-main.js": "/creativeunbounding/static/js/runtime-main.09a791f9.js",
     "runtime-main.js.map": "/creativeunbounding/static/js/runtime-main.09a791f9.js.map",
     "static/css/2.d45d6843.chunk.css": "/creativeunbounding/static/css/2.d45d6843.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.e2451eec.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.2b722ee9.chunk.js"
+    "static/js/main.65fbfbd5.chunk.js"
   ]
 }
