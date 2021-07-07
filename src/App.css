@@ -64,3 +64,15 @@
   background: linear-gradient(90deg, #a0f0e2 0, #9bee9b 58%);
   color: white !important;
 }
+
+a {
+  color: green !important;
+  text-decoration: none !important;
+  font-size: 2rem;
+}
+
+.active {
+  background: #a0f0e2;
+  background: linear-gradient(90deg, #a0f0e2 0, #9bee9b 58%);
+  color: white !important;
+}
