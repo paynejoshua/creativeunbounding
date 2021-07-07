@@ -9,22 +9,12 @@ function App() {
   
    
       <Router basename={process.env.PUBLIC_URL}> 
-      <Switch>
-        
-        <Route exact path="/" component={PageNav.home} />
-       
-
-        <Route exact path="/home" component={PageNav.home} />
-         
-
-        <Route exact path="/about" component={PageNav.about} />
-          
-
-        <Route exact path="/blog" component={PageNav.blog} />
-          
-        
-      </Switch>
-
+        <Switch>
+          <Route exact path="/" component={PageNav.home} />
+          <Route exact path="/home" component={PageNav.home} />
+          <Route exact path="/about" component={PageNav.about} />
+          <Route exact path="/blog" component={PageNav.blog} />
+        </Switch>
     </Router>
 
   );
